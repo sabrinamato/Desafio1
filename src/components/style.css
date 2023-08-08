@@ -1,0 +1,328 @@
+html {
+  background-color: rgb(248, 239, 221);
+}
+
+/* ----------------------Componentes Varios-------------------- */
+
+button {
+  cursor: pointer;
+  background-color: rgb(236, 217, 41);
+  border: thin solid rgb(211, 167, 24);
+  border-radius: 15px;
+  height: fit-content;
+  text-transform: uppercase;
+  width: fit-content;
+}
+
+/* ----------------------MODAL-------------------- */
+.componenteModal{
+  height: 100%;
+  width: 100%;
+}
+.fondoModal{
+  height: 100%;
+  width: 100%;
+  bottom:0;
+  right: 0;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+.insertarFoto{
+  position: relative;
+  top: 180px;
+  right: 130px;
+}
+.modal {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  height: 90%;
+  background-color: rgb(248, 239, 221);
+  border: thin solid rgb(219, 189, 15);
+  border-radius: 5px;
+  margin: auto;
+  z-index: 2;
+}
+.infoDeportistaModal li{
+  font-size: 0.8em;
+  margin-left: 25px;
+}
+
+.imagen-exit {
+  align-self: flex-end;
+  cursor: pointer;
+}
+
+img .exit {
+  margin: 0;
+}
+
+.info {
+  display: flex;
+  padding: 0 20px 20px 20px;
+}
+
+.detalles {
+  display: flex;
+  text-align: start;
+  margin-left: 10px;
+  padding-left: 5px;
+  height: 75%;
+}
+
+.detalles img {
+  width: 150px;
+  height: 150px;
+}
+
+.detalles h3,
+p {
+  margin: 0;
+  padding-left:10px;
+}
+
+
+.descripcion {
+  margin-top: 20px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  text-align: start;
+  border-top: thin solid rgb(219, 189, 15);
+}
+
+.combo,
+.estats {
+  width: 50%;
+}
+
+.estats {
+  background-color: rgb(243, 211, 146);
+}
+
+.boton-modal {
+  align-self: center;
+}
+
+/* ----------------------HEADER-------------------- */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50%;
+  background-color: rgb(248, 239, 221);
+}
+
+.buttonInsertar{
+  height: 30px;
+  width: max-content;
+  border-radius: 50%;
+  margin: 0 30px 0 0;
+  padding: 8px;
+  background-color: rgb(150, 122, 177) ;
+  color: rgb(75, 21, 126);
+  border-color: rgb(75, 21, 126);;
+}
+
+.buttonHome{
+  position: absolute;
+  left: 25px;
+}
+
+.header img {
+  width: 330px;
+  height: 120px;
+  background-color: rgb(248, 239, 221);
+}
+
+.header button {
+  margin-top: 5px;
+  margin-left: 5px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  border-radius: 50px;
+}
+
+/* ----------------------SearchBar-------------------- */
+.searchBar input {
+  width: 300px;
+  height: 30px;
+  background-color: rgb(218, 219, 221);
+  border: thin solid rgb(195, 144, 236);
+  border-radius: 5px;
+  padding-left: 3px;
+  margin-right: 10px;
+}
+
+.searchBar button {
+  width: 150px;
+  height: 30px;
+  font-size: 20px;
+}
+
+/* ----------------------Main-------------------- */
+
+.main {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80vw;
+  padding-left: 10%;
+  margin-top: 60px;
+  height: 90%;
+  z-index: 0;
+  /* padding-right: 10%; */
+}
+
+.card {
+  width: 300px;
+  height: 250px;
+  background-color: rgb(218, 219, 221);
+  border: thin solid rgb(195, 144, 236);
+  border-radius: 5px;
+  margin: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.especialidad {
+  margin: 0;
+}
+
+.fotos {
+  width: 100px;
+  height: 100px;
+}
+
+.bt-ver-mas button {
+  margin-top: 20px;
+  font-size: 13px;
+  width: 120%;
+  justify-self: flex-end;
+}
+
+/* ----------------------Footer-------------------- */
+div .footer {
+  position: relative;
+  bottom: 0;
+  width: 100vw;
+  height: 40vh;
+  z-index: 0;
+}
+
+/* ----------------------Formulario-------------------- */
+.contenedorForm{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  height: 100vh;
+}
+.titulo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 15%;
+  color: rgb(75, 21, 126);
+  background-color: rgb(255, 213, 0);
+  text-align: center;
+}
+
+h3 {
+  margin-top: 5%;
+  color: rgb(75, 21, 126);
+}
+
+.formulario {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(248, 239, 221);
+  height: 70vh;
+  width: 65vw;padding-bottom: 10px;
+}
+.formulario button{
+  width: 120%;
+}
+
+.datos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+  margin-bottom: 10px;
+}
+.datos select {
+  width: 40%;
+  height: 15%;
+  margin: 12px;
+}
+.datos input{
+  width: 40%;
+  height: 15%;
+  margin: 10px;
+}
+
+.ancho {
+  width: 50%;
+  border-radius: 20px;
+  border: none;
+  background-color: rgb(183, 157, 209);
+  color: rgb(75, 21, 126);
+  margin: 5px 0;
+}
+
+input,
+select {
+  width: 60%;
+  height: 25px;
+  padding-left: 3px;
+}
+.buttonFormRegistrar{
+  background-color:  rgb(183, 157, 209);
+  color: rgb(75, 21, 126);
+  border-color: rgb(75, 21, 126);
+  height: 120%;
+}
+.buttonFormAtras{
+  background-color:  rgb(227, 215, 238);
+  color: rgb(75, 21, 126);
+  border-color: rgb(150, 122, 177);
+  height: 120%;
+}
+.btn-atras, .btn-registrar{
+  margin: 5px 0 10px 0;
+}
+
+/* ----------------------Estadisticas-------------------- */
+.contenedorEstadisticas{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.formEstadisticas{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  width: 90%;
+}
+
+.formEstadisticas select{
+  margin: 10px;
+}
